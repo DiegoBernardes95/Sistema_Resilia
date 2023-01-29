@@ -21,7 +21,7 @@ create table `Professor`(
 `Nome` varchar(20),
 `Matricula` varchar(20),
 `Telefone` varchar(20),
-`Turmas_onde_leciona` varchar(20),
+`Numero_da_turma` varchar(10),
 `Endereco` varchar(70));
 
 create table `Aluno`(
@@ -30,7 +30,8 @@ create table `Aluno`(
 `Matricula` varchar(20),
 `Media_notas` float,
 `Telefone` varchar(20),
-`Endereco` varchar(70));
+`Endereco` varchar(70),
+`Numero_da_turma` varchar(10));
 
 create table `Turma`(
 `id` int primary key not null auto_increment,
@@ -38,4 +39,5 @@ create table `Turma`(
 `Fim_das_aulas` date,
 `Qtd_de_alunos` int,
 `Turno` varchar(10),
-`Media_geral` float);
+`Media_geral` float,
+`Numero` varchar(10));

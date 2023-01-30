@@ -17,7 +17,7 @@
 
 ## Outras entidades além das requisitadas:
 
-As entidades `Matéria` e `Professor` foram criadas para estabelecer um gerenciamento mais amplo das insformações.
+As entidades `Matéria` e `Professor` foram criadas para estabelecer um gerenciamento mais amplo das informações.
 
 ## Principais campos e tipos:
 
